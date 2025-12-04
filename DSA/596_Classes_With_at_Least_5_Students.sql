@@ -6,7 +6,3 @@ select class
 from courses
 group by class
 having count(class) >= 5;
-
-/* Write your PL/SQL query statement below */
-SELECT MOD(id,2) != 0 as id, Cinema.* FROM Cinema;
--- WHERE decription not like "boring" ;
